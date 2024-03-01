@@ -2,8 +2,10 @@
 ### Implementation of the TEKA (Time Elastic Kernel Averaging for set of time series) code defined and used in [1]. The TEKA code is written in C++ and the python wrapper is using the CYTHON compiler
 
 ## Requirements
-g++ compiler
-CYTHON and python3.*
+- g++ compiler
+- CYTHON compiler
+- python3.*
+- matplotlib
 
 ## To install
 $ sh install.sh
