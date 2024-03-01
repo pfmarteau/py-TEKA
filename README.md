@@ -17,9 +17,9 @@ $ sh uninstall.sh
 $ python3 testCBF.py
 <p float="left">
   <img src="CBF_ITEKA_Centroids.jpg" width="100" height="100">
-  <img src="CBF_ITEKA_15_c.jpg" width="100" height="100">
-  <img src="CBF_ITEKA_15_b.jpg" width="100" height="100">
-  <img src="CBF_ITEKA_15_f.jpg" width="100" height="100">
+  <img src="CBF_ITEKA_15_c.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_b.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_f.jpg" width="200" height="150">
 </p>
 
 
