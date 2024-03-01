@@ -1,4 +1,4 @@
-# TEKA-py : Python wrapper to module TEKA 
+# py-TEKA : Python wrapper to module TEKA 
 ### Implementation of the TEKA (Time Elastic Kernel Averaging) code defined and used in [1]. The TEKA code is written in C++ and the python wrapper is using the CYTHON compiler
 
 ## Requirements
@@ -11,7 +11,7 @@ $ sh install.sh
 ## To uninstall 
 $ sh uninstall.sh
 
-## To test TEKA-py on the Cylinder, Bell, Funnel dataset
+## To test py-TEKA on the Cylinder, Bell, Funnel dataset
 $ python3 testCBF.py
 
 ![Cylender,Bell,Funnel centroids](CBF_ITEKA_Centroids.jpg?raw=true)
