@@ -17,6 +17,10 @@ $ sh uninstall.sh
 $ python3 testCBF.py
 
 ![Cylender,Bell,Funnel centroids](CBF_ITEKA_Centroids.jpg?raw=true)
+![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_c.jpg?raw=true)
+![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_b.jpg?raw=true)
+![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_f.jpg?raw=true)
+
 
 
 Please cite the following article if needed to.
