@@ -16,10 +16,9 @@ $ sh uninstall.sh
 ## To test py-TEKA on the Cylinder, Bell, Funnel dataset
 $ python3 testCBF.py
 
-![Cylender,Bell,Funnel centroids](CBF_ITEKA_Centroids.jpg?raw=true)
-![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_c.jpg?raw=true)
-![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_b.jpg?raw=true)
-![Cylender,Bell,Funnel centroids](CBF_ITEKA_15_f.jpg?raw=true)
+<img src="CBF_ITEKA_Centroids.jpg" width="100" height="100">
+<img src="CBF_ITEKA_15_c.jpg" width="100" height="100">
+<img src="CBF_ITEKA_15_b.jpg" width="100" height="100">
 <img src="CBF_ITEKA_15_f.jpg" width="100" height="100">
 
 
