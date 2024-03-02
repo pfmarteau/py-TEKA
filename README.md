@@ -13,7 +13,7 @@ $ sh install.sh
 ## To uninstall 
 $ sh uninstall.sh
 
-## To test py-TEKA on the Cylinder, Bell, Funnel dataset
+## Testing py-TEKA on the Cylinder, Bell, Funnel dataset
 $ python3 testCBF.py
 <p float="left">
   <img src="fig/CBF_ITEKA_15_c.jpg" width="200" height="150">
