@@ -25,6 +25,7 @@ $ python3 testCBF.py
   <img src="CBF_ITEKA_15_c0.jpg" width="200" height="150">
   <img src="CBF_ITEKA_15_b0.jpg" width="200" height="150">
   <img src="CBF_ITEKA_15_f0.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_f0.jpg" width="200" height="150">
 </p>
 
 Please cite the following article if needed to.
