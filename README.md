@@ -21,7 +21,12 @@ $ python3 testCBF.py
   <img src="CBF_ITEKA_15_b.jpg" width="200" height="150">
   <img src="CBF_ITEKA_15_f.jpg" width="200" height="150">
 </p>
-
+<p float="left">
+  <img src="CBF_ITEKA_Centroids.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_c.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_b.jpg" width="200" height="150">
+  <img src="CBF_ITEKA_15_f.jpg" width="200" height="150">
+</p>
 
 Please cite the following article if needed to.
 [1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, Vol 29, num 2, pp 375–392, De Gruyter editor, 2019 [https://arxiv.org/abs/1611.09194]
