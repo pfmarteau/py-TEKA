@@ -1,5 +1,5 @@
 # py-TEKA : Python wrapper to module TEKA 
-### Implementation of the TEKA (Time Elastic Kernel Averaging of set of time series) code defined and used in [1]. The TEKA code is written in C++ and the python wrapper is using the CYTHON compiler
+### Implementation of the TEKA (Time Elastic Kernel Averaging of set of time series) code defined and experimented in [1]. The TEKA code itself is written in C++ and its python wrapper is using the CYTHON compiler
 
 ## Requirements
 - g++ compiler
