@@ -28,5 +28,6 @@ $ python3 testCBF.py
   <img src="fig/CBF_ITEKA_15_b_t0.jpg" width="200" height="150">
 </p>
 
-Please cite the following article if needed to.
+Please cite the following article if needed to:
+
 [1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, Vol 29, num 2, pp 375–392, De Gruyter editor, 2016 [https://arxiv.org/abs/1611.09194], [bibtex](ref/marteau2016.bib)
