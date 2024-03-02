@@ -28,4 +28,4 @@ $ python3 testCBF.py
 </p>
 
 Please cite the following article if needed to.
-[1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, Vol 29, num 2, pp 375–392, De Gruyter editor, 2019 [https://arxiv.org/abs/1611.09194]
+[1] Marteau, P.F., Times series averaging and denoising from a probabilistic perspective on time-elastic kernels International Journal of Applied Mathematics and Computer Science, Vol 29, num 2, pp 375–392, De Gruyter editor, 2019 [https://arxiv.org/abs/1611.09194], [bibtex](marteau2016.bib)
