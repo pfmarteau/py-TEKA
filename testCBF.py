@@ -168,7 +168,7 @@ for i in range(n):
     plt.plot(ds_c[i],'r')
 plt.plot(C_c[:,0:dim],'k', linewidth=4)
 plt.title("Cylinder shapes and centroid in bold")
-figname='CBF_'+_type+'_'+str(sigma)+'_c.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_c.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(10)
@@ -182,7 +182,7 @@ plt.plot(T+Tstd_c, C,'r-.', linewidth=2)
 plt.plot(T-Tstd_c, C,'b-.', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
 plt.title("Variance around the Cylinder centroid in amplitude and time")
-figname='CBF_'+_type+'_'+str(sigma)+'_c0.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_c0.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 
 
@@ -191,7 +191,8 @@ TTp=np.array(list(TTp_c))
 for i in range(len(TTp[0])):
     plt.plot(TTp[:,i],'r')
 plt.title("Temporal alignement functions for the Cylinder shapes")
-
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_c_t0.jpg'
+plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(12)
 T=np.arange(L)
@@ -199,9 +200,9 @@ up=(T+Tstd_c)
 down=(T-Tstd_c)
 plt.plot(T,'k', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
-plt.title("Temporal alignement functions around the centroid temporal pattern for the Cylinder shapes")
+plt.title("Variance of alignement functions for the Cylinder shapes")
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_c_t.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_c_t.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(2)
@@ -210,7 +211,7 @@ for i in range(n):
 plt.plot(C_b[:,0:dim],'k', linewidth=4)
 plt.title("Bell shapes and centroid in bold")
 #plt.errorbar(np.arange(L), C_b[:,0:dim], C_b[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_b.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_b.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 #plt.clf()
 
@@ -226,7 +227,7 @@ plt.plot(T-Tstd_b, C,'b-.', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
 plt.title("Variance around the Bell centroid in amplitude and time")
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_b0.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_b0.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(21)
@@ -234,6 +235,8 @@ TTp=np.array(list(TTp_b))
 for i in range(len(TTp[0])):
     plt.plot(TTp[:,i],'r')
 plt.title("Temporal alignement functions for the Bell shapes")
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_b_t0.jpg'
+plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(22)
 T=np.arange(L)
@@ -241,9 +244,9 @@ up=(T+Tstd_b)
 down=(T-Tstd_b)
 plt.plot(T,'k', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
-plt.title("Temporal alignement functions around the centroid temporal pattern for the Bell shapes")
+plt.title("Variance of alignement functions for the Bell shapes")
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_b_t.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_b_t.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 
 
@@ -258,7 +261,7 @@ plt.plot(C,'k', linewidth=4)
 plt.title("Funnel shapes and centroid in bold")
 #plt.fill_between(np.arange(L), down, up)
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_f.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_f.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
 #plt.clf()
 
@@ -274,7 +277,7 @@ plt.plot(T-Tstd_f, C,'b-.', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
 plt.title("Variance around the Funnel centroid in amplitude and time")
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_f0.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_f0.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
   
 plt.figure(31)
@@ -282,6 +285,8 @@ TTp=np.array(list(TTp_f))
 for i in range(len(TTp[0])):
     plt.plot(TTp[:,i],'r')
 plt.title("Temporal alignement functions for the Funnel shapes")
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_f_t.jpg'
+plt.savefig(figname, format='jpg', dpi=1000)
 
 plt.figure(32)
 T=np.arange(L)
@@ -289,11 +294,10 @@ up=(T+Tstd_f)
 down=(T-Tstd_f)
 plt.plot(T,'k', linewidth=2)
 plt.fill_between(np.arange(L), down, up)
-plt.title("Temporal alignement functions around the centroid temporal pattern for the Funnel shapes")
+plt.title("Variance of alignement functions for the Funnel shapes")
 #plt.errorbar(np.arange(L), C_f[:,0:dim], C_f[:,dim:2*dim], fmt='ok', lw=3)
-figname='CBF_'+_type+'_'+str(sigma)+'_f_t.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_f_t.jpg'
 plt.savefig(figname, format='jpg', dpi=1000)
-
 
 fig=plt.figure(4)
 ax = fig.gca()
@@ -302,7 +306,7 @@ ax.set_yticks(np.arange(0, 10., 1))
 plt.plot(C_c[:,0:dim],'b', linewidth=2, linestyle=':', label='cylinder')
 plt.plot(C_b[:,0:dim],'g', linewidth=2, linestyle='--', label='bell')
 plt.plot(C_f[:,0:dim],'r', linewidth=2, linestyle='-.', label='funnel')
-figname='CBF_'+_type+'_'+str(sigma)+'_.jpg'
+figname='fig/CBF_'+_type+'_'+str(sigma)+'_.jpg'
 plt.grid()
 plt.legend()
 plt.title("Cylinder, Bell, Funnel ITEKA centroids")
