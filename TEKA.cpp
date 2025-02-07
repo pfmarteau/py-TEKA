@@ -92,7 +92,7 @@ double TEKA::kdtw(std::vector< std::vector<double> > va, std::vector< std::vecto
     // I:va: multivariate time series va
     // I:lb: length of time series vb
     // I:vb: multivariate time series vb
-    // I:sigma: parameter of the local kernel (exp(-delta(va(i),vb(j))/sigma)
+    // I:sigma: parameter of the local kernel (exp(-delta(va(i),vb(j))/sigma also written in the litterature exp(-nu.delta(va(i),vb(j)) avec nu=1./sigma)
     // O:return value, kdtw(va,vb,sigma)
     int r = va.size();
     int c = vb.size();
@@ -158,7 +158,7 @@ std::vector< std::vector<double> > kdtw_mat(std::vector< std::vector<double> > v
     // I:va: multivariate time series va
     // I:lb: length of time series vb
     // I:vb: multivariate time series vb
-    // I:sigma: parameter of the local kernel (exp(-delta(va(i),vb(j))/sigma)
+    // I:sigma: parameter of the local kernel (exp(-delta(va(i),vb(j))/sigma  also written in the litterature exp(-nu.delta(va(i),vb(j)) avec nu=1./sigma)
     // O:return value, alignment matrix kdtw(va,vb,sigma)
     int r = va.size();
     int c = vb.size();
@@ -369,12 +369,12 @@ std::vector<std::vector< std::vector<double> >> TEKA::iTEKA_stdev(std::vector< s
      std::vector< std::vector<double> >  ts2;
      std::vector<std::vector<Point> > tupleAssociation;
      std::vector<std::vector<double> > timeStampsAssociation;
-    tupleAssociation.resize(C.size());
+     tupleAssociation.resize(C.size());
      timeStampsAssociation.resize(C.size());
-    const int l1 = C.size();
-    const int dim=C[0].size();
-    std::vector<std::vector< std::vector<double> >> rout={};
-    for(unsigned int n=0; n<dataset.size(); n++){
+     const int l1 = C.size();
+     const int dim=C[0].size();
+     std::vector<std::vector< std::vector<double> >> rout={};
+     for(unsigned int n=0; n<dataset.size(); n++){
         ts2=dataset[n];
         std::vector< std::vector<double> > mat=(kdtw_fbmat(C,ts2,sigma, epsilon));
         
