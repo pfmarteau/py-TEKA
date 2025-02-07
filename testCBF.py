@@ -3,7 +3,6 @@ homepath='/home/pfm/linux/Python/'
 sys.path.append('.')
 #sys.path.append(homepath+'/pandas-0.19.1/')
 sys.path.append(homepath+'/Pycluster-1.54/python')
-from ds import PyDS
 
 import pandas as pd
 import numpy as np
@@ -11,10 +10,7 @@ import matplotlib.pyplot as plt
 from pylab import *
 
 from teka import PyTEKA
-
-
 TEKA = PyTEKA()
-DS=PyDS()
 
 def get_kdtw_inertia(ts, ds, sigma, epsilon):
     inertia = 0
