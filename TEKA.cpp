@@ -6,7 +6,7 @@ References:
 in IEEE Transactions on Neural Networks and Learning Systems, vol. 26, no. 6, pp. 1121-1133, June 2015. 
 doi: 10.1109/TNNLS.2014.2333876
 [ii] Pierre-François Marteau, Times series averaging and denoising from a probabilistic perspective on time-elastic kernels, 
-International Journal of Applied Mathematics and Computer Science, De Gruyter, In press
+International Journal of Applied Mathematics and Computer Science, De Gruyter, 2019, 29 (2), pp.375-392. ⟨hal-01401072v4⟩
 
 >>> SOURCE LICENSE >>>
 This program is free software; you can redistribute it and/or modify
